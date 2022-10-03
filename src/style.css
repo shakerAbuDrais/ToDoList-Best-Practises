@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background-color: #ddd;
+}
+
+#text {
+  border: none;
+}
+
+.todo {
+  width: auto;
+  z-index: 100;
+  margin: 5% 10%;
+  background-color: white;
+  padding: 2%;
+  box-shadow: 2px 2px grey;
+}
+
+li {
+  list-style: none;
+}
+
+#dots {
+  float: right;
+  padding: 0 20px;
+}
+
+input::placeholder {
+  font-style: italic;
+  padding-left: 20px;
+}
+
+input {
+  border: 1px solid #ddd;
+}
+
+span {
+  color: grey;
+}
+
+hr {
+  color: #ddd;
+}
+
+h4 {
+  padding-left: 20px;
+}
+
+.btn {
+  border: none;
+  color: grey;
+  text-align: center;
+}
+
+.line-s {
+  text-decoration: line-through;
+}
